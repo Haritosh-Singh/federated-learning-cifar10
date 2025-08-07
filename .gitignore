@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+flower-env/
+
+# Data
+data/raw/
+*.pkl
+*.pt
+*.pth
+
+# Results
+results/*.png
+results/*.pdf
+results/*.log
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
