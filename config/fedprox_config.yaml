@@ -1,0 +1,13 @@
+# FedProx Federated Learning Configuration
+
+num_rounds: 50                # Number of communication rounds
+num_clients: 10               # Total number of clients in the simulation
+clients_per_round: 5          # Number of clients sampled per round
+local_epochs: 1               # Number of local training epochs per round
+batch_size: 32                # Batch size for local training
+learning_rate: 0.01           # Learning rate for local optimizer
+momentum: 0.9                 # Momentum for SGD optimizer
+weight_decay: 0.0             # Weight decay (L2 regularization)
+mu: 0.01                      # Proximal term parameter (FedProx only)
+seed: 42                      # Random seed for reproducibility
+iid: false                    # Whether to use IID or non-IID data partitioning
