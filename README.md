@@ -217,4 +217,8 @@ This project is released under the MIT License. See `LICENSE` for details.
 - [Flower](https://flower.dev) for FL orchestration and simulation
 - PyTorch/Torchvision for model and data tooling
 
+<<<<<<< HEAD
 #mm
+=======
+#mm
+>>>>>>> 859dcc6 (ReadMe)
