@@ -52,3 +52,4 @@ coverage.xml
 # macOS / Linux system files
 .DS_Store
 Thumbs.db
+data/
